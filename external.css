@@ -1,0 +1,8 @@
+/*This is External css file...*/
+p{
+    color:indianred;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid lightsalmon ;
+}
