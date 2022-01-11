@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(162, 145, 240);
+}
+input:focus{
+    background-color:rgb(216, 235, 236);
+}
+::placeholder{
+    color: black;
+    font-size: 12px;
+}
+input[type="email"]:valid{
+    background-color: lightgreen;
+}
+input:checked{
+    width:20px;
+    height:20px;
+}
+textarea
+{
+    width: 22%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+.button{
+    background-color: #1a1809;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+select{
+    padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+ input[type=text],input[type=password],input[type=email],input[type=tel], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+  }
+  
+  label {
+      font-size: 20px;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  h2{
+      text-align: center;
+  }
+  h2:hover{
+      transform: scale(1.5,1.5);
+  }
+  .button:hover{
+      background-color: linen;
+      color: black;
+  }
